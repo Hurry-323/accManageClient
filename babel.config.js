@@ -5,6 +5,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = {
+	
   presets: [
     '@vue/cli-plugin-babel/preset'
   ],
@@ -19,5 +20,5 @@ module.exports = {
     // 发布产品时候的需要的插件数组
     ...proPlugins,
     '@babel/plugin-syntax-dynamic-import'
-  ]
+  ],
 }

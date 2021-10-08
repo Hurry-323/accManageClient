@@ -1,4 +1,8 @@
 module.exports = {
+	 devServer: {
+	        sockHost: 'demo.my-domain.com',
+	        disableHostCheck: true,
+	},
   chainWebpack: config => {
     // 发布模式
     config.when(process.env.NODE_ENV === 'production', config => {

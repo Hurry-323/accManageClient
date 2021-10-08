@@ -8,13 +8,15 @@ import './assets/css/global.css'
 // 导入字体图标
 import './assets/fonts/iconfont.css'
 // import treeTable from 'vue-table-with-tree-grid'
-//markdown解析
+//markdown编辑
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
-
+//md解析
 import marked from 'marked'
-
 import lodash from 'lodash'
+//全局组件注册
+// Vue.component('marked', marked)
+// Vue.component('lodash', lodash)
 // 导入富文本 编辑器
 // import VueQuillEditor from 'vue-quill-editor'
 
@@ -25,8 +27,8 @@ import 'quill/dist/quill.bubble.css'
  */
 // 导入 Nprogress 包对应的js和css
 /* import NProgress from 'nprogress'
-import 'nprogress/nprogress.css'
- */
+import 'nprogress/nprogress.css' */
+
 // 导入axios
 import axios from 'axios'
 // 配置请求的根路径
@@ -52,7 +54,7 @@ axios.defaults.baseURL = 'http://127.0.0.1/'
 Vue.prototype.$http = axios
 //使用
 Vue.use(mavonEditor)
-
+// Vue.use(marked)
 Vue.use(lodash)
 //禁止提示
 Vue.config.productionTip = false
