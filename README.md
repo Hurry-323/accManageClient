@@ -3,7 +3,7 @@
 #### 数据库：MYSQL；
 #### 服务器：Tomcat；
 #### 开发语言：JAVA；
-#### 开发工具：Eclipse；
+#### 开发工具：Idea；
 #### 项目整体架构：web前后端分离，前后端交互方式AJAX+REST API；
 #### 前端技术：HTML5+CSS3+Vue.js+axios.js+ElementUI；
 #### 后端技术：Spring+Springmvc+Mybatis+Mysql（或者构建SpringBoot项目）；
